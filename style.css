@@ -1,0 +1,46 @@
+.text{
+    text-align: center;
+    font-size: 500px;
+    padding-top: 600px;
+    color: white;
+}
+.circle{
+height: 1000px;
+width: 900px; 
+position: relative;
+background-color:green;
+border-radius: 50%;
+top: 0;
+left: 0;
+animation-name: sonal1;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+}
+@keyframes sonal1{
+    from{
+transform: rotate(deg);
+    }
+    to{
+transform: rotate(360edg);
+    }
+    0%{
+        top: 0;
+        left: 4500px;
+    }
+    25%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left: 0;
+    }
+    75%{
+        top: 0;
+        left:0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
